@@ -1,0 +1,124 @@
+/* 全局样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* 导航栏样式 */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    text-align: left;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* 景点介绍样式 */
+.spot-intro {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.spot-intro h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+.spot-intro p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* 悬浮窗样式 */
+.modal {
+  display: none; /* 默认隐藏 */
+  position: fixed; /* 固定位置 */
+  z-index: 1; /* 位于顶层 */
+  left: 0;
+  top: 0;
+  width: 100%; /* 全宽 */
+  height: 100%; /* 全高 */
+  overflow: auto; /* 如果内容溢出，则显示滚动条 */
+  background-color: rgba(0,0,0,0.4); /* 半透明背景 */
+}
+
+/* 模态框内容样式 */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 上下左右居中 */
+  padding: 30px;
+  border: 1px solid #888;
+  width: 80%; /* 宽度 */
+}
+
+/* 关闭按钮样式 */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 图片样式 */
+.spot-image {
+    width: 100%;
+    height: auto;
+}
+
+/* 按钮样式 */
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* 警告字符样式 */
+.red-text {
+    color: red;
+}
+
+/* 结尾样式 */
+.endding{
+  text-align:center;
+  opacity: 0.1;
+}
